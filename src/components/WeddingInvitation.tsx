@@ -79,7 +79,14 @@ const WeddingInvitation = () => {
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <p className="text-lg">The Garden Estate, Beverly Hills</p>
+                  <a 
+                    href="https://www.google.com/maps/search/The+Garden+Estate+Beverly+Hills"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg text-primary hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
+                  >
+                    The Garden Estate, Beverly Hills
+                  </a>
                 </div>
               </div>
             </div>
@@ -166,58 +173,38 @@ const WeddingInvitation = () => {
         </div>
       </section>
 
-      {/* Love Story Section */}
+      {/* Wedding Timeline Section */}
       <section className="py-20 px-4 bg-gradient-elegant">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="script-heading text-4xl md:text-5xl mb-12 text-primary">
-            Our Love Story
+        <div className="max-w-4xl mx-auto">
+          <h2 className="script-heading text-4xl md:text-5xl text-center mb-12 text-primary">
+            Wedding Day Timeline
           </h2>
           
-          <div className="wedding-card">
-            <div className="elegant-text space-y-6 text-muted-foreground">
-              <p className="text-lg">
-                Our journey began five years ago when we met at a coffee shop on a rainy Tuesday morning. 
-                What started as a chance encounter over spilled coffee became the greatest adventure of our lives.
-              </p>
-              <p className="text-lg">
-                Through laughter, tears, adventures, and quiet moments, we've built a love that grows stronger 
-                every day. Now, we're ready to write the next chapter of our story together.
-              </p>
-              <div className="pt-6">
-                <Heart className="w-8 h-8 mx-auto text-primary animate-heart-beat fill-current" />
+          <div className="space-y-8">
+            {[
+              { time: "3:30 PM", event: "Guest Arrival", description: "Welcome drinks and light refreshments" },
+              { time: "4:00 PM", event: "Ceremony Begins", description: "Exchange of vows in the Garden Pavilion" },
+              { time: "4:45 PM", event: "Cocktail Hour", description: "Mingling and photo opportunities" },
+              { time: "6:00 PM", event: "Reception Dinner", description: "Three-course meal in the Grand Ballroom" },
+              { time: "8:00 PM", event: "Dancing & Celebration", description: "Live music and open bar until midnight" }
+            ].map((item, index) => (
+              <div key={index} className="flex flex-col md:flex-row items-center gap-6">
+                <div className="wedding-card flex-1 text-center md:text-left">
+                  <div className="flex flex-col md:flex-row items-center gap-4">
+                    <div className="bg-primary text-primary-foreground rounded-full w-16 h-16 flex items-center justify-center font-bold text-sm">
+                      {item.time}
+                    </div>
+                    <div>
+                      <h3 className="script-heading text-xl md:text-2xl text-primary mb-2">{item.event}</h3>
+                      <p className="text-muted-foreground">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+                {index < 4 && (
+                  <div className="hidden md:block w-8 h-0.5 bg-primary/30"></div>
+                )}
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* RSVP Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="script-heading text-4xl md:text-5xl mb-8 text-primary">
-            Join Our Celebration
-          </h2>
-          
-          <div className="wedding-card">
-            <p className="text-lg mb-8 text-muted-foreground elegant-text">
-              Your presence would make our special day complete. Please let us know if you'll be joining us 
-              for this celebration of love, laughter, and happily ever after.
-            </p>
-            
-            <div className="space-y-4">
-              <Button className="romantic-button w-full">
-                <Heart className="w-5 h-5 mr-2 fill-current" />
-                Yes, I'll Be There!
-              </Button>
-              
-              <Button variant="outline" className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-elegant">
-                Sorry, Can't Make It
-              </Button>
-            </div>
-            
-            <p className="text-sm text-muted-foreground mt-6">
-              Please RSVP by November 15th, 2024
-            </p>
+            ))}
           </div>
         </div>
       </section>
