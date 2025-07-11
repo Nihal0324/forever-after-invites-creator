@@ -14,7 +14,7 @@ const WeddingInvitation = () => {
     setIsVisible(true);
     
     // Create floating hearts
-    const heartArray = Array.from({ length: 24 }, (_, i) => ({
+    const heartArray = Array.from({ length: 21 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 8
@@ -66,8 +66,11 @@ const WeddingInvitation = () => {
                  Invite you to celebrate the joy of <br />our Wedding events
               </p>
             </div>
+             
 
-            <div className="wedding-card max-w-xl mx-auto mb-8">
+            <div className="wedding-card max-w-xl mx-auto mb-4">
+            
+              
             
 
               <div className="text-center">

@@ -202,7 +202,7 @@
 
 @layer components {
   .wedding-card {
-    @apply bg-card shadow-elegant rounded-2xl p-8 transition-romantic;
+    @apply bg-card shadow-elegant rounded-3xl p-8 transition-romantic h-60 w-80;
   }
   
   .wedding-card:hover {
