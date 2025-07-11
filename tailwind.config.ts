@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+
+
 export default {
 	darkMode: ["class"],
 	content: [
@@ -63,6 +65,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				corsiva: ['"Monotype Corsiva"', 'cursive'],
+				serif: ['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
+        		inter: ['Inter', 'sans-serif'],
+        		dancing: ['Dancing Script', 'cursive'],
+      		},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

@@ -14,7 +14,7 @@ const WeddingInvitation = () => {
     setIsVisible(true);
     
     // Create floating hearts
-    const heartArray = Array.from({ length: 19 }, (_, i) => ({
+    const heartArray = Array.from({ length: 24 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 8
@@ -55,26 +55,28 @@ const WeddingInvitation = () => {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             <div className="mb-8">
-              <p className="text-lg md:text-xl text-muted-foreground mb-4 font-light">
+              <p className="text-lg md:text-2xl font-corsiva text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-4xl md:text-8xl font-extrabold mb-3 animate-romantic-pulse">
+              <h1 className="script-heading text-4xl md:text-8xl font-corsiva font-bold mb-3 animate-romantic-pulse">
                 Deeksha & Sagar Reddy
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground mb-4 font-light">
+              <p className="text-lg md:text-2xl font-corsiva text-muted-foreground mb-4 font-light">
                 {/* Request the pleasure of your company */}
                  Invite you to celebrate the joy of <br />our Wedding events
               </p>
             </div>
 
-            <div className="wedding-card max-w-2xl mx-auto mb-8">
+            <div className="wedding-card max-w-xl mx-auto mb-8">
+            
+
               <div className="text-center">
                 <h2 className="script-heading text-3xl md:text-4xl mb-6 text-primary">
                   Save the Date
                 </h2>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Calendar className="w-6 h-6 text-primary" />
-                  <p className="text-xl md:text-2xl font-medium">{formattedDate}</p>
+                  <p className="text-xl md:text-2xl  font-serif font-medium">{formattedDate}</p>
                 </div>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Clock className="w-5 h-5 text-primary" />
@@ -94,9 +96,10 @@ const WeddingInvitation = () => {
               </div>
             </div>
 
-            <Button className="romantic-button text-xs px-8 py-4 animate-heart-beat">
+            <Button className="romantic-button text-xs px-8 py-4 ">
               {/* <Heart className="w-5 h-5 mr-2 fill-current" /> */}
-              “Two souls, one story — thank you for joining our chapter.”
+              <div className=" mx-auto text-xs animate-heart-beat">“Two souls, one story — thank you for joining our chapter.”</div>
+              
             </Button>
           </div>
         </div>
