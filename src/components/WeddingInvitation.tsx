@@ -12,7 +12,7 @@ const WeddingInvitation = () => {
     setIsVisible(true);
     
     // Create floating hearts
-    const heartArray = Array.from({ length: 8 }, (_, i) => ({
+    const heartArray = Array.from({ length: 19 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 8
@@ -20,7 +20,7 @@ const WeddingInvitation = () => {
     setHearts(heartArray);
   }, []);
 
-  const weddingDate = new Date('2024-12-15');
+  const weddingDate = new Date('2025-10-24');
   const formattedDate = weddingDate.toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
@@ -56,8 +56,8 @@ const WeddingInvitation = () => {
               <p className="text-lg md:text-xl text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-6xl md:text-8xl font-bold mb-4 animate-romantic-pulse">
-                Sarah & Michael
+              <h1 className="script-heading text-4xl md:text-8xl font-bold mb-3 animate-romantic-pulse">
+                Deeksha & Sagar Reddy
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
                 Request the pleasure of your company
@@ -75,25 +75,25 @@ const WeddingInvitation = () => {
                 </div>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Clock className="w-5 h-5 text-primary" />
-                  <p className="text-lg">4:00 PM</p>
+                  <p className="text-lg">10:38 AM</p>
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
                   <a 
-                    href="https://www.google.com/maps/search/The+Garden+Estate+Beverly+Hills"
+                    href="https://maps.app.goo.gl/VyG7BJkmy4hzRP5t6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg text-primary hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
                   >
-                    The Garden Estate, Beverly Hills
+                    SRR Gardens,Bhainsa
                   </a>
                 </div>
               </div>
             </div>
 
             <Button className="romantic-button text-lg px-8 py-4 animate-heart-beat">
-              <Heart className="w-5 h-5 mr-2 fill-current" />
-              RSVP Now
+              {/* <Heart className="w-5 h-5 mr-2 fill-current" /> */}
+              “Two souls, one story — thank you for joining our chapter.”
             </Button>
           </div>
         </div>
@@ -112,7 +112,7 @@ const WeddingInvitation = () => {
               <div className="mb-6">
                 <Heart className="w-12 h-12 mx-auto text-primary animate-float" />
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary">Ceremony</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary">Sangeet</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
