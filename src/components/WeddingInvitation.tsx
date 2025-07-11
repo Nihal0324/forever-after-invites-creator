@@ -3,6 +3,8 @@ import { Heart, Calendar, MapPin, Clock, Users, Camera } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import weddingBg from '@/assets/wedding-floral-bg.jpg';
+import { Sparkles } from "lucide-react";
+import { Droplet } from 'lucide-react';
 
 const WeddingInvitation = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,11 +58,12 @@ const WeddingInvitation = () => {
               <p className="text-lg md:text-xl text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-4xl md:text-8xl font-bold mb-3 animate-romantic-pulse">
+              <h1 className="script-heading text-4xl md:text-8xl font-extrabold mb-3 animate-romantic-pulse">
                 Deeksha & Sagar Reddy
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-                Request the pleasure of your company
+              <p className="text-lg md:text-xl text-muted-foreground mb-4 font-light">
+                {/* Request the pleasure of your company */}
+                 Invite you to celebrate the joy of <br />our Wedding events
               </p>
             </div>
 
@@ -91,7 +94,7 @@ const WeddingInvitation = () => {
               </div>
             </div>
 
-            <Button className="romantic-button text-lg px-8 py-4 animate-heart-beat">
+            <Button className="romantic-button text-xs px-8 py-4 animate-heart-beat">
               {/* <Heart className="w-5 h-5 mr-2 fill-current" /> */}
               “Two souls, one story — thank you for joining our chapter.”
             </Button>
@@ -107,65 +110,82 @@ const WeddingInvitation = () => {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Ceremony */}
+            {/* sangeet */}
             <Card className="wedding-card text-center">
               <div className="mb-6">
-                <Heart className="w-12 h-12 mx-auto text-primary animate-float" />
+                {/* <Heart className="w-12 h-12 mx-auto text-primary animate-float" /> */}
+                <div className="w-11 h-11 mx-auto text-4xl animate-float-delayed">🕺</div>
+
+
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary">Sangeet</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Sangeet</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
-                  4:00 PM
+                  5:00 PM
                 </p>
                 <p className="flex items-center justify-center gap-2">
-                  <MapPin className="w-4 h-4" />
-                  Garden Pavilion
+                   <Calendar className="w-4 h-4" />
+                  October 22, 2025
                 </p>
                 <p className="mt-4 text-sm">
-                  Join us as we exchange vows surrounded by nature's beauty
+                  Turn up the volume and join us on the dance floor!
                 </p>
               </div>
             </Card>
 
-            {/* Reception */}
+            {/* Haldi */}
             <Card className="wedding-card text-center">
               <div className="mb-6">
-                <Users className="w-12 h-12 mx-auto text-primary animate-float-delayed" />
+                {/* <Users className="w-12 h-12 mx-auto text-primary animate-float-delayed" /> */}
+                <Sparkles className="w-12 h-12 mx-auto text-yellow-300 animate-float-delayed" />
+                
+
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary">Reception</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Haldi</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
-                  6:00 PM
+                  5:00 PM
                 </p>
                 <p className="flex items-center justify-center gap-2">
-                  <MapPin className="w-4 h-4" />
-                  Grand Ballroom
+                  <Calendar className="w-4 h-4" />
+                  October 23, 2025
                 </p>
                 <p className="mt-4 text-sm">
-                  Dinner, dancing, and celebration under the stars
+                  Like Haldi, may your love and bond become stronger with time.
                 </p>
               </div>
             </Card>
 
-            {/* Photos */}
+            {/* wedding */}
             <Card className="wedding-card text-center">
               <div className="mb-6">
-                <Camera className="w-12 h-12 mx-auto text-primary animate-float" />
+                {/* <Camera className="w-12 h-12 mx-auto text-primary animate-float" /> */}
+                <img 
+                   src="/images/bride-groom.png" 
+                   alt="Bride and Groom" 
+                   className="w-24 h-24 mx-auto rounded-full object-cover animate-float"
+                />
+                {/* <img 
+                  src="/images/bride-groom.png" 
+                  alt="Bride and Groom" 
+                  className="w-12 h-12 mx-auto object-contain "
+                /> */}
+
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary">Memories</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Wedding</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
-                  All Day
+                  10:38 AM
                 </p>
                 <p className="flex items-center justify-center gap-2">
-                  <Camera className="w-4 h-4" />
-                  #SarahAndMichael
+                  <Calendar className="w-4 h-4" />
+                  October 24, 2025
                 </p>
                 <p className="mt-4 text-sm">
-                  Share your photos and help us capture every moment
+                  Join us to celebrate the beginning of our forever
                 </p>
               </div>
             </Card>
@@ -173,7 +193,7 @@ const WeddingInvitation = () => {
         </div>
       </section>
 
-      {/* Wedding Timeline Section */}
+      {/* Wedding Timeline Section
       <section className="py-20 px-4 bg-gradient-elegant">
         <div className="max-w-4xl mx-auto">
           <h2 className="script-heading text-4xl md:text-5xl text-center mb-12 text-primary">
@@ -207,7 +227,7 @@ const WeddingInvitation = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="py-12 text-center text-muted-foreground">
@@ -216,7 +236,7 @@ const WeddingInvitation = () => {
             With Love & Gratitude
           </p>
           <p className="text-sm">
-            Sarah & Michael • December 15th, 2024 • The Garden Estate
+            Deeksha & Sagar Reddy • October 24th, 2025          • SRR Gardens, Bhainsa
           </p>
           <div className="mt-6 flex justify-center space-x-2">
             {[...Array(5)].map((_, i) => (
