@@ -101,7 +101,7 @@ const WeddingInvitation = () => {
 
             <Button className="romantic-button text-xs px-8 py-4 ">
               {/* <Heart className="w-5 h-5 mr-2 fill-current" /> */}
-              <div className=" mx-auto text-xs animate-heart-beat">“Two souls, one story — thank you for joining our chapter.”</div>
+              <div className=" mx-auto text-xs animate-heart-beat">"Two souls, one story — be part of our beginning.”</div>
               
             </Button>
           </div>

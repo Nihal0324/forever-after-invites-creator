@@ -66,7 +66,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				corsiva: ['"Monotype Corsiva"', 'cursive'],
+				corsiva: ['Monotype Corsiva', 'cursive'],
 				serif: ['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
         		inter: ['Inter', 'sans-serif'],
         		dancing: ['Dancing Script', 'cursive'],
