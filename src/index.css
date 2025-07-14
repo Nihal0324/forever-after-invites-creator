@@ -245,6 +245,15 @@
     opacity: 1;
   }
 }
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+}
+
+.animate-wiggle {
+  display: inline-block;
+  animation: wiggle 1s ease-in-out infinite;
+}
 
 @keyframes heart-beat {
   0%, 100% { transform: scale(1); }

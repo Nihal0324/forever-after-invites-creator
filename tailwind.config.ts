@@ -70,6 +70,21 @@ export default {
 				serif: ['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
         		inter: ['Inter', 'sans-serif'],
         		dancing: ['Dancing Script', 'cursive'],
+				allura: ['Allura', 'cursive'], // Romantic handwritten
+   				greatvibes: ['Great Vibes', 'cursive'], // Swirling and elegant
+   				pacifico: ['Pacifico', 'cursive'], // Fun and casual
+    			sacramento: ['Sacramento', 'cursive'], // Thin and elegant
+    			parisienne: ['Parisienne', 'cursive'], // French-style chic
+    			alex: ['Alex Brush', 'cursive'], // Formal, calligraphic
+   				marck: ['Marck Script', 'cursive'], // Friendly handwriting
+    			cinzel: ['Cinzel', 'serif'], // Cinematic roman
+    			cinzeldecorative: ['Cinzel Decorative', 'serif'], // Movie-title style
+    			abril: ['Abril Fatface', 'serif'], // Bold serif, stylish
+    			playfair: ['Playfair Display', 'serif'], // Editorial elegance
+    			cormorant: ['Cormorant Garamond', 'serif'], // Classical serif
+    			lora: ['Lora', 'serif'], // Warm & modern serif
+    			libre: ['Libre Baskerville', 'serif'], // Classic book-style
+   				montserrat: ['Montserrat', 'sans-serif'], // Clean and cinematic sans
       		},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -92,13 +107,25 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				wiggle: {
+     		 		'0%, 100%': { transform: 'translateX(0)' },
+     		 		'50%': { transform: 'translateX(8px)' }
+   			      }
 			},
+			
+  
+			
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+    			,
+				wiggle: 'wiggle 1s ease-in-out infinite'
+
 			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+

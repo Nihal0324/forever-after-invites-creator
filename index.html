@@ -27,3 +27,41 @@
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+
+
+
+<script>
+  window.addEventListener('load', () => {
+    let scrollInterval = setInterval(() => {
+      window.scrollBy({ top: 1, behavior: 'smooth' });
+
+      // Stop scrolling when bottom is reached
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        clearInterval(scrollInterval);
+      }
+    }, 30); // scrolls 1px every 30ms (adjust speed here)
+  });
+</script>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4.243 6 10 6 10s6-5.757 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+    </svg>
+    SRR Gardens, Bhainsa
+  </a>
+
+  <!-- Animated Hand -->
+  <div class="mt-2 animate-wave text-xl">👈🏻</div>
+</div>
+
+<!-- Add CSS animation -->
+<style>
+@keyframes wave {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+}
+.animate-wave {
+  display: inline-block;
+  animation: wave 1s ease-in-out infinite;
+}
+</style>

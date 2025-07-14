@@ -55,13 +55,13 @@ const WeddingInvitation = () => {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             <div className="mb-8">
-              <p className="text-lg md:text-2xl font-corsiva text-muted-foreground mb-4 font-light">
+              <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
               <h1 className="script-heading text-4xl md:text-8xl font-corsiva font-bold mb-3 animate-romantic-pulse">
                 Deeksha & Sagar Reddy
               </h1>
-              <p className="text-lg md:text-2xl font-corsiva text-muted-foreground mb-4 font-light">
+              <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
                 {/* Request the pleasure of your company */}
                  Invite you to celebrate the joy of <br />our Wedding events
               </p>
@@ -94,6 +94,8 @@ const WeddingInvitation = () => {
                     className="text-lg text-primary hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
                   >
                     SRR Gardens,Bhainsa
+                  <div className="animate-wiggle text-xl mt-2">👈🏻</div>
+
                   </a>
                 </div>
               </div>
@@ -120,7 +122,12 @@ const WeddingInvitation = () => {
             <Card className="wedding-card text-center">
               <div className="mb-6">
                 {/* <Heart className="w-12 h-12 mx-auto text-primary animate-float" /> */}
-                <div className="w-11 h-11 mx-auto text-4xl animate-float-delayed">🕺</div>
+                {/* <div className="w-11 h-11 mx-auto text-4xl animate-float-delayed">🕺</div> */}
+                <img 
+                   src="/images/sangeet.jpg" 
+                   alt="Haldi Ceremony" 
+                   className="w-24 h-24 mx-auto rounded-full object-cover animate-float"
+                />
 
 
               </div>
@@ -144,7 +151,12 @@ const WeddingInvitation = () => {
             <Card className="wedding-card text-center">
               <div className="mb-6">
                 {/* <Users className="w-12 h-12 mx-auto text-primary animate-float-delayed" /> */}
-                <Sparkles className="w-12 h-12 mx-auto text-yellow-300 animate-float-delayed" />
+                {/* <Sparkles className="w-12 h-12 mx-auto text-yellow-300 animate-float-delayed" /> */}
+                <img 
+                   src="/images/Haldi.jpg" 
+                   alt="Haldi Ceremony" 
+                   className="w-24 h-24 mx-auto rounded-full object-cover animate-float"
+                />
                 
 
               </div>
