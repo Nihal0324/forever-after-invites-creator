@@ -58,7 +58,7 @@ const WeddingInvitation = () => {
               <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-4xl md:text-8xl  font-extrabold mb-3 animate-romantic-pulse">
+              <h1 className="script-heading text-4xl md:text-8xl   font-extrabold mb-3 animate-romantic-pulse">
                 Deeksha & Sagar Reddy
               </h1>
               <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
@@ -74,16 +74,16 @@ const WeddingInvitation = () => {
             
 
               <div className="text-center">
-                <h2 className="script-heading text-3xl md:text-4xl mb-6 text-primary">
+                <h2 className="script-heading  text-3xl md:text-4xl mb-6 text-primary">
                   Save the Date
                 </h2>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Calendar className="w-6 h-6 text-primary" />
-                  <p className="text-xl md:text-2xl  font-serif font-medium">{formattedDate}</p>
+                  <p className="text-xl md:text-2xl  font-courgette font-medium">{formattedDate}</p>
                 </div>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Clock className="w-5 h-5 text-primary" />
-                  <p className="text-lg">10:38 AM</p>
+                  <p className="text-lg font-marck">10:38 AM</p>
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
@@ -91,7 +91,7 @@ const WeddingInvitation = () => {
                     href="https://maps.app.goo.gl/VyG7BJkmy4hzRP5t6"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg text-primary hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
+                    className="text-lg text-primary  font-courgette hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
                   >
                     SRR Gardens,Bhainsa
                   <div className="animate-wiggle text-xl mt-2">👈🏻</div>
@@ -113,7 +113,7 @@ const WeddingInvitation = () => {
       {/* Wedding Details Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="script-heading text-4xl md:text-5xl text-center mb-16 text-primary animate-fade-in-up">
+          <h2 className="script-heading text-4xl md:text-5xl  font-parisienne text-center mb-16 text-primary animate-fade-in-up">
             Celebration Details
           </h2>
 
@@ -126,12 +126,12 @@ const WeddingInvitation = () => {
                 <img 
                    src="/images/sangeet.jpg" 
                    alt="Haldi Ceremony" 
-                   className="w-24 h-24 mx-auto rounded-full object-cover animate-float"
+                   className="w-24 h-24   mx-auto rounded-full object-cover animate-float"
                 />
 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Sangeet</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary  font-corsiva  font-bold">Sangeet</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -160,7 +160,7 @@ const WeddingInvitation = () => {
                 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Haldi</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-corsiva font-bold">Haldi</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -192,7 +192,7 @@ const WeddingInvitation = () => {
                 /> */}
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-bold">Wedding</h3>
+              <h3 className="script-heading text-2xl mb-4 font-corsiva  text-primary font-bold">Wedding</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
