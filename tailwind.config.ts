@@ -85,6 +85,11 @@ export default {
     			lora: ['Lora', 'serif'], // Warm & modern serif
     			libre: ['Libre Baskerville', 'serif'], // Classic book-style
    				montserrat: ['Montserrat', 'sans-serif'], // Clean and cinematic sans
+    			satisfy: ['Satisfy', 'cursive'],
+    			italianno: ['Italianno', 'cursive'],
+    			courgette: ['Courgette', 'cursive'],
+    			clicker: ['Clicker Script', 'cursive'],
+				herrvon: ['Herr Von Muellerhoff', 'cursive'],
       		},
 			borderRadius: {
 				lg: 'var(--radius)',

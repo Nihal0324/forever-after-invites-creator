@@ -10,7 +10,18 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Satisfy&family=Italianno&family=Courgette&family=Clicker+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+
+
+
+
+
+
 
     <meta property="og:title" content="56bb0f3c-e6d4-410b-81a9-6b3773927258" />
     <meta property="og:description" content="Lovable Generated Project" />
@@ -30,7 +41,7 @@
 
 
 
-<script>
+<!-- <script>
   window.addEventListener('load', () => {
     let scrollInterval = setInterval(() => {
       window.scrollBy({ top: 1.5, behavior: 'smooth' });
@@ -41,6 +52,34 @@
       }
     }, 30); // scrolls 1px every 30ms (adjust speed here)
   });
+</script> -->
+<script>
+  let scrollInterval;
+
+  window.addEventListener('load', () => {
+    scrollInterval = setInterval(() => {
+      window.scrollBy({ top: 1.5, behavior: 'smooth' });
+
+      // Stop auto-scroll when bottom is reached
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        clearInterval(scrollInterval);
+      }
+    }, 30);
+  });
+
+  // Stop scrolling when user manually scrolls
+  let userInteracted = false;
+
+  const stopAutoScroll = () => {
+    if (!userInteracted) {
+      userInteracted = true;
+      clearInterval(scrollInterval);
+    }
+  };
+
+  window.addEventListener('wheel', stopAutoScroll, { passive: true });
+  window.addEventListener('touchstart', stopAutoScroll, { passive: true });
+  window.addEventListener('keydown', stopAutoScroll); // In case of arrow key scroll
 </script>
 
 

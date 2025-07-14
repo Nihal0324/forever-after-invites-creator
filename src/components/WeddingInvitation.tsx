@@ -58,7 +58,7 @@ const WeddingInvitation = () => {
               <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-4xl md:text-8xl font-corsiva font-bold mb-3 animate-romantic-pulse">
+              <h1 className="script-heading text-4xl md:text-8xl  font-extrabold mb-3 animate-romantic-pulse">
                 Deeksha & Sagar Reddy
               </h1>
               <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
