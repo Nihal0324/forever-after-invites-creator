@@ -78,7 +78,7 @@ const WeddingInvitation = () => {
             
 
               <div className="text-center">
-                <h2 className="script-heading    text-3xl md:text-4xl mb-6 text-primary">
+                <h2 className="script-heading  font-italianno  text-5xl md:text-5xl mb-6 text-primary">
                   Save the Date
                 </h2>
                 
@@ -136,7 +136,7 @@ const WeddingInvitation = () => {
 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary  font-parisienne font-bold">Sangeet</h3>
+              <h3 className="script-heading text-3xl mb-4 text-primary  font-courgette">Sangeet</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -165,7 +165,7 @@ const WeddingInvitation = () => {
                 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-playfair font-bold">Haldi</h3>
+              <h3 className="script-heading text-3xl mb-4 text-primary font-courgette">Haldi</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -197,7 +197,7 @@ const WeddingInvitation = () => {
                 /> */}
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 font-parisienne  text-primary font-bold">Wedding</h3>
+              <h3 className="script-heading text-3xl mb-4 font-courgette text-primary ">Wedding</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
