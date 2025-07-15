@@ -279,10 +279,10 @@ const WeddingInvitation = () => {
       {/* Footer */}
       <footer className="py-12 text-center text-muted-foreground">
         <div className="max-w-2xl mx-auto px-4">
-          <p className="script-heading text-2xl mb-4 text-primary">
+          <p className="script-heading text-3xl font-italianno  mb-4 text-primary">
             With Love & Gratitude
           </p>
-          <p className="text-sm">
+          <p className="text-sm font-courgette">
             Deeksha & Sagar Reddy • October 24th, 2025          • SRR Gardens, Bhainsa
           </p>
           <div className="mt-6 flex justify-center space-x-2">
