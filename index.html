@@ -59,13 +59,13 @@
 
   window.addEventListener('load', () => {
     scrollInterval = setInterval(() => {
-      window.scrollBy({ top: 50, behavior: 'smooth' });
+      window.scrollBy(0, 1.5);
 
       // Stop auto-scroll when bottom is reached
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         clearInterval(scrollInterval);
       }
-    }, 30);
+    }, 20);
   });
 
   // Stop scrolling when user manually scrolls
