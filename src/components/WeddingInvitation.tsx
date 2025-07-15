@@ -170,7 +170,7 @@ const WeddingInvitation = () => {
                    <Calendar className="w-4 h-4" />
                   October 22, 2025
                 </p>
-                <p className="mt-4 font-courgette text-sm">
+                <p className="mt-4 font-courgette text-m">
                   Turn up the volume and join us on the dance floor!
                 </p>
               </div>
@@ -199,7 +199,7 @@ const WeddingInvitation = () => {
                   <Calendar className="w-4 h-4" />
                   October 23, 2025
                 </p>
-                <p className="mt-4 font-courgette  text-lg">
+                <p className="mt-4 font-courgette  text-m">
                   Like Haldi, may your love and bond become stronger with time.
                 </p>
               </div>
@@ -231,7 +231,7 @@ const WeddingInvitation = () => {
                   <Calendar className="w-4 h-4" />
                   October 24, 2025
                 </p>
-                <p className="mt-4 font-courgette text-sm">
+                <p className="mt-4 font-courgette text-m">
                   Join us to celebrate the beginning of our forever
                 </p>
               </div>
