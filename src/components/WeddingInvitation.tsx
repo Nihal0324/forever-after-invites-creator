@@ -119,7 +119,8 @@ const WeddingInvitation = () => {
   <img
     src="/images/tap.png" 
     alt="tap hand"
-   className="absolute top-2 left-[100%] w-8 h-8 rotate-[900deg] animate-tap"
+   className="absolute top-4 left-1/2 -translate-x-1/2 w-8 h-8 rotate-[60deg] animate-tap"
+
 
 
   />
