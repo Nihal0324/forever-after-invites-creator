@@ -114,9 +114,17 @@ export default {
 					}
 				},
 				wiggle: {
-     		 		'0%, 100%': { transform: 'translateX(0)' },
-     		 		'50%': { transform: 'translateX(8px)' }
-   			      }
+					'0%, 100%': { transform: 'translateX(0)' },
+					'50%': { transform: 'translateX(8px)' }
+				  },
+				tap: {
+					'0%': { transform: 'rotate(0deg) scale(1)', opacity: '1' },
+    				'25%': { transform: 'rotate(0deg) scale(0.95) translateY(2px)' },
+    				'50%': { transform: 'rotate(0deg) scale(1)' },
+    				'100%': { transform: 'rotate(0deg) scale(1)' }
+					}   
+
+				
 			},
 			
   
@@ -125,7 +133,9 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
     			,
-				wiggle: 'wiggle 1s ease-in-out infinite'
+				wiggle: 'wiggle 1s ease-in-out infinite',
+				tap: 'tap 1s infinite ease-in-out'
+
 
 			}
 		}

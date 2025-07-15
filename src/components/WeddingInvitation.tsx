@@ -98,9 +98,33 @@ const WeddingInvitation = () => {
                     rel="noopener noreferrer"
                     className="text-lg text-primary  font-courgette hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
                   >
-                    SRR Gardens,Bhainsa
-                  <div className="animate-tap text-xl mt-2"> 👈🏻</div>
+                    {/* SRR Gardens,Bhainsa */}
+                  {/* <div className="animate-tap text-xl mt-2"> 👈🏻</div> */}
+                  
+                  {/* <img
+                    src="/images/tap.png" 
+                    alt="Tap Hand"
+                    className="absolute -top-10 -left-6 w-10 h-10 rotate-[30deg] animate-tap"
+                  /> */}
+                <div className="relative inline-block">
+  <a
+    href="https://maps.google.com/..."
+    target="_blank"
+    className="text-palepink-500 underline font-semibold"
+  >
+    SRR Gardens, Bhainsa
+  </a>
 
+  
+  <img
+    src="/images/tap.png" 
+    alt="tap hand"
+   className="absolute top-2 left-[100%] w-8 h-8 rotate-[900deg] animate-tap"
+
+
+  />
+</div>
+                  
                   </a>
                 </div>
               </div>
