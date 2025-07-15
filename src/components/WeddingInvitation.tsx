@@ -108,7 +108,7 @@ const WeddingInvitation = () => {
                   /> */}
                 <div className="relative inline-block">
   <a
-    href="https://maps.google.com/..."
+    href="https://maps.app.goo.gl/VyG7BJkmy4hzRP5t6"
     target="_blank"
     className="text-palepink-500 underline font-semibold"
   >
