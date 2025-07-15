@@ -73,7 +73,6 @@ export default {
 				allura: ['Allura', 'cursive'], // Romantic handwritten
    				greatvibes: ['Great Vibes', 'cursive'], // Swirling and elegant
    				pacifico: ['Pacifico', 'cursive'], // Fun and casual
-    			sacramento: ['Sacramento', 'cursive'], // Thin and elegant
     			parisienne: ['Parisienne', 'cursive'], // French-style chic
     			alex: ['Alex Brush', 'cursive'], // Formal, calligraphic
    				marck: ['Marck Script', 'cursive'], // Friendly handwriting
@@ -88,8 +87,9 @@ export default {
     			satisfy: ['Satisfy', 'cursive'],
     			italianno: ['Italianno', 'cursive'],
     			courgette: ['Courgette', 'cursive'],
-    			clicker: ['Clicker Script', 'cursive'],
-				herrvon: ['Herr Von Muellerhoff', 'cursive'],
+        		merriweather: ['Merriweather', 'serif'],
+    			
+				
       		},
 			borderRadius: {
 				lg: 'var(--radius)',

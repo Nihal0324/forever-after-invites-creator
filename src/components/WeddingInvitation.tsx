@@ -55,13 +55,17 @@ const WeddingInvitation = () => {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             <div className="mb-8">
-              <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
+              <p className="text-lg md:text-2xl font-serif text-muted-foreground mb-4 font-light">
                 Together with our families
               </p>
-              <h1 className="script-heading text-4xl md:text-8xl   font-extrabold mb-3 animate-romantic-pulse">
+              {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno   mb-3 animate-romantic-pulse">
+                Deeksha & Sagar Reddy
+              </h1> */}
+              <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse text-transparent bg-clip-text bg-gradient-to-r from-pink-400  to-rose-400 drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
                 Deeksha & Sagar Reddy
               </h1>
-              <p className="text-lg md:text-2xl font-cinzeldecorative text-muted-foreground mb-4 font-light">
+
+              <p className="text-lg md:text-2xl font-serif text-muted-foreground mb-4 font-light">
                 {/* Request the pleasure of your company */}
                  Invite you to celebrate the joy of <br />our Wedding events
               </p>
@@ -74,9 +78,10 @@ const WeddingInvitation = () => {
             
 
               <div className="text-center">
-                <h2 className="script-heading  text-3xl md:text-4xl mb-6 text-primary">
+                <h2 className="script-heading    text-3xl md:text-4xl mb-6 text-primary">
                   Save the Date
                 </h2>
+                
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Calendar className="w-6 h-6 text-primary" />
                   <p className="text-xl md:text-2xl  font-courgette font-medium">{formattedDate}</p>
@@ -94,7 +99,7 @@ const WeddingInvitation = () => {
                     className="text-lg text-primary  font-courgette hover:text-primary/80 transition-colors underline-offset-4 hover:underline"
                   >
                     SRR Gardens,Bhainsa
-                  <div className="animate-wiggle text-xl mt-2">👈🏻</div>
+                  <div className="animate-tap text-xl mt-2"> 👈🏻</div>
 
                   </a>
                 </div>
@@ -113,7 +118,7 @@ const WeddingInvitation = () => {
       {/* Wedding Details Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="script-heading text-4xl md:text-5xl  font-parisienne text-center mb-16 text-primary animate-fade-in-up">
+          <h2 className="script-heading text-5xl md:text-6xl  font-italianno  text-center mb-16 text-primary animate-fade-in-up">
             Celebration Details
           </h2>
 
@@ -131,7 +136,7 @@ const WeddingInvitation = () => {
 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary  font-corsiva  font-bold">Sangeet</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary  font-parisienne font-bold">Sangeet</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -160,7 +165,7 @@ const WeddingInvitation = () => {
                 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-corsiva font-bold">Haldi</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-parisienne font-bold">Haldi</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
@@ -192,7 +197,7 @@ const WeddingInvitation = () => {
                 /> */}
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 font-corsiva  text-primary font-bold">Wedding</h3>
+              <h3 className="script-heading text-2xl mb-4 font-parisienne  text-primary font-bold">Wedding</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
