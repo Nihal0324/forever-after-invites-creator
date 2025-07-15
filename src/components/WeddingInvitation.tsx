@@ -165,7 +165,7 @@ const WeddingInvitation = () => {
                 
 
               </div>
-              <h3 className="script-heading text-2xl mb-4 text-primary font-parisienne font-bold">Haldi</h3>
+              <h3 className="script-heading text-2xl mb-4 text-primary font-playfair font-bold">Haldi</h3>
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
