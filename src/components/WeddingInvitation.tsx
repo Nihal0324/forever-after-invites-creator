@@ -225,7 +225,7 @@ const WeddingInvitation = () => {
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
-                  10:38 AM
+                  11:28 AM
                 </p>
                 <p className="flex items-center justify-center gap-2">
                   <Calendar className="w-4 h-4" />
