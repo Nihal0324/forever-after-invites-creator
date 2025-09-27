@@ -88,7 +88,7 @@ const WeddingInvitation = () => {
                 </div>
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Clock className="w-5 h-5 text-primary" />
-                  <p className="text-lg font-marck">11:28 AM</p>
+                  <p className="text-lg font-marck">11:59 AM</p>
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
@@ -225,7 +225,7 @@ const WeddingInvitation = () => {
               <div className="space-y-2 text-muted-foreground">
                 <p className="flex items-center justify-center gap-2">
                   <Clock className="w-4 h-4" />
-                  11:28 AM
+                  11:59 AM
                 </p>
                 <p className="flex items-center justify-center gap-2">
                   <Calendar className="w-4 h-4" />
