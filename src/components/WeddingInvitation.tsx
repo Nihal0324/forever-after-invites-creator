@@ -75,10 +75,12 @@ const WeddingInvitation = () => {
   Deeksha & Sagar Reddy
 </h1> */} 
               <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse 
-  text-transparent bg-clip-text bg-gradient-to-r from-[#3A8D99] to-[#1F5C63] 
+  text-transparent bg-clip-text bg-gradient-to-r from-[#8B5E3C] to-[#5C3A21] 
   drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
   Deeksha & Sagar Reddy
 </h1>
+
+
 
 
 
