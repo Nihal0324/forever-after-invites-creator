@@ -64,21 +64,27 @@ const WeddingInvitation = () => {
               {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse text-transparent bg-clip-text bg-gradient-to-r from-pink-400  to-rose-400 drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
                 Deeksha & Sagar Reddy
               </h1> */}
-              {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse 
+               {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse 
   text-transparent bg-clip-text bg-gradient-to-r from-[#D1B38A] to-[#A87C4F] 
   drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
   Deeksha & Sagar Reddy
-</h1> */} 
-              {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse 
-  text-transparent bg-clip-text bg-gradient-to-r from-[#7D8FA3] to-[#4C5C70] 
+</h1>  */}
+               {/* <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-5 animate-romantic-pulse 
+  text-transparent bg-clip-text bg-gradient-to-r from-[#D4A373] to-[#A97142] 
   drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
   Deeksha & Sagar Reddy
-</h1> */} 
+</h1> */}
+
+ 
               <h1 className="script-heading text-5xl md:text-9xl font-italianno mb-3 animate-romantic-pulse 
   text-transparent bg-clip-text bg-gradient-to-r from-[#8B5E3C] to-[#5C3A21] 
   drop-shadow-[0_2px_2px_rgba(255,255,255,0.6)]">
   Deeksha & Sagar Reddy
 </h1>
+              
+
+
+
 
 
 
